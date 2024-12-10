@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CursoWeb</title>
+  <link rel="stylesheet" href="/src/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <a class="logo" href="#home">CURSOWEB</a>
+      <section id="search-section">
+        <div class="busca">
+          <a href="#busca">Buscar</a>
+        </div>
+        <input type="text" id="search-bar" placeholder="Pesquise por cursos...">
+      </section>
+    <div class="login">
+    <div id="login-container">
+      <button id="login-button">Entrar</button>
+    </div>
+  </div>
+  </header>
+
+  <main>
+    <section class="home">
+
+    <section id="courses-section">
+      <div class="course-card" data-name="Curso de HTML">
+        <div class="img-html">
+        <img src="/img/o-que-e-html.jpg" alt="">
+        </div>
+        <h2>Curso de HTML</h2>
+        <p>Aprenda HTML do básico ao avançado.</p>
+      </div>
+
+      <div class="course-card" data-name="Curso de CSS">
+        <div class="img-css">
+          <img src="/img/hero.png" alt="">
+          </div>
+        <h2>Curso de CSS</h2>
+        <p>Estilize suas páginas web com CSS.</p>
+      </div>
+
+      <div class="course-card" data-name="Curso de JavaScript">
+        <div class="img-js">
+        <img src="/img/images_9353691196_2f49650ed42b1-Para-que-e-usado-o-JavaScript.jpg" alt="">
+        </div>
+        <h2>Curso de JavaScript</h2>
+        <p>Domine a linguagem mais usada na web.</p>
+      </div>
+
+      <div class="course-card" data-name="Curso de Segurança da Informação">
+        <div class="img-js">
+        <img src="/img/segurança.png" alt="">
+        </div>
+        <h2>Curso de Segurança da Informação</h2>
+        <p>Aprenda a se proteger de malwares perigosos com CyberSecurity.</p>
+      </div>
+
+      <div class="course-card" data-name="Curso de Banco de Dados">
+        <div class="img-js">
+        <img src="/img/database.png" alt="">
+        </div>
+        <h2>Curso de Banco de Dados</h2>
+        <p>Domine as linguagens de banco de dados com aulas práticas e um desenvolvimento de software completo.</p>
+      </div>
+
+      <div class="course-card" data-name="Curso de Java">
+        <div class="img-js">
+        <img src="/img/java.avif" alt="">
+        </div>
+        <h2>Curso de Java</h2>
+        <p>Domine uma das linguagens de programação mais famosas no mundo, de uma forma prática.</p>
+      </div>
+    </section>
+
+  </section>
+  </main>
+
+  <div id="login-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Login</h2>
+      <form id="login-form">
+        <label for="username">Usuário:</label>
+        <input type="text" id="username" required>
+        <label for="password">Senha:</label>
+        <input type="password" id="password" required>
+        <button type="submit">Entrar</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="/src/script.js"></script>
+</body>
+</html>
