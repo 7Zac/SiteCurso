@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CursoWeb</title>
+  <link rel="stylesheet" href="/src/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <header>
+  <a class="logo" href="#home">CURSOWEB</a>
+  <section id="search-section">
+    <div class="busca">
+      <a href="#busca">Buscar</a>
+    </div>
+    <input type="text" id="search-bar" placeholder="Pesquise por cursos...">
+  </section>
+  <div class="login">
+    <div id="login-container">
+      <button id="login-button">Entrar</button>
+      <button id="register-button">Cadastrar</button>
+    </div>
+  </div>
+</header>
+
+<!-- Modal para Login -->
+<div id="login-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Login</h2>
+    <form id="login-form">
+      <label for="username">Usuário:</label>
+      <input type="text" id="username" required>
+      <label for="password">Senha:</label>
+      <input type="password" id="password" required>
+      <button type="submit">Entrar</button>
+    </form>
+  </div>
+</div>
+
+<!-- Modal para Cadastro -->
+<div id="register-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Cadastrar</h2>
+    <form id="register-form">
+      <label for="register-username">Usuário:</label>
+      <input type="text" id="register-username" required>
+      <label for="register-password">Senha:</label>
+      <input type="password" id="register-password" required>
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+</div>
+
+
+  <main>
+    <section class="home">
+
+    <section id="courses-section">
+      <div class="course-card" data-name="Curso de HTML">
+        <div class="img-html">
+        <img src="/img/o-que-e-html.jpg" alt="">
+        </div>
+        <h2>Curso de HTML</h2>
+        <p>Aprenda HTML do básico ao avançado.</p>
+      </div>
+
+      <div class="course-card" data-name="Curso de CSS">
+        <div class="img-css">
+          <img src="/img/hero.png" alt="">
+          </div>
+        <h2>Curso de CSS</h2>
+        <p>Estilize suas páginas web com CSS.</p>
+      </div>
+
+      <div class="course-card" data-name="Curso de JavaScript">
+        <div class="img-js">
+        <img src="/img/images_9353691196_2f49650ed42b1-Para-que-e-usado-o-JavaScript.jpg" alt="">
+        </div>
+        <h2>Curso de JavaScript</h2>
+        <p>Domine a linguagem mais usada na web.</p>
+      </div>
+
+      <div class="course-card" data-name="Curso de Segurança da Informação">
+        <div class="img-js">
+        <img src="/img/segurança.png" alt="">
+        </div>
+        <h2>Curso de Segurança da Informação</h2>
+        <p>Aprenda a se proteger de malwares perigosos com CyberSecurity.</p>
+      </div>
+
+      <div class="course-card" data-name="Curso de Banco de Dados">
+        <div class="img-js">
+        <img src="/img/database.png" alt="">
+        </div>
+        <h2>Curso de Banco de Dados</h2>
+        <p>Domine as linguagens de banco de dados com aulas práticas e um desenvolvimento de software completo.</p>
+      </div>
+
+      <div class="course-card" data-name="Curso de Java">
+        <div class="img-js">
+        <img src="/img/java.avif" alt="">
+        </div>
+        <h2>Curso de Java</h2>
+        <p>Domine uma das linguagens de programação mais famosas no mundo, de uma forma prática.</p>
+      </div>
+    </section>
+
+  </section>
+  </main>
+
+  <div id="login-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Login</h2>
+      <form id="login-form">
+        <label for="username">Usuário:</label>
+        <input type="text" id="username" required>
+        <label for="password">Senha:</label>
+        <input type="password" id="password" required>
+        <button type="submit">Entrar</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer">
+      <ul class="footer-home">
+        
+          <h1>Home</h1>
+        
+        <li class="li-home">
+          <a href="#home">Login</a>
+        </li>
+        <li class="li-home">
+          <a href="#home">Cadastro</a>
+        </li>
+        <li class="li-home">
+          <a href="#home">Cursos</a>
+        </li>
+      </ul>
+
+      <ul class="footer-categorias">
+        
+          <h1>Categorias</h1>
+        
+        <li class="li-categorias">
+          <a href="#home">Ensino Fundamental I</a>
+        </li>
+        <li class="li-categorias">
+          <a href="#home">Ensino Fundamental II</a>
+        </li>
+        <li class="li-categorias">
+          <a href="#home">Ensino Médio</a>
+        </li>
+        <li class="li-categorias">
+          <a href="#home">Educação Especial</a>
+        </li>
+        <li class="ver-mais">
+          <a href="#home">Ver mais</a>
+        </li>
+      </ul>
+
+      <ul class="footer-disciplinas">
+        
+          <h1>Disciplinas</h1>
+        
+        <li class="li-disciplina">
+          <a href="#home">Português</a>
+        </li>
+        <li class="li-disciplina">
+          <a href="#home">História</a>
+        </li>
+        <li class="li-disciplina">
+          <a href="#home">Geografia</a>
+        </li>
+        <li class="li-disciplina">
+          <a href="#home">Matemática</a>
+        </li>
+        <li class="ver-mais">
+          <a href="#home">Ver mais</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="hr">
+      <hr>
+    </div>
+
+    <div class="direitos">
+      <p>© 2024 Atividades Práticas Interdisciplinares - Todos os direitos reservados.</p>
+    </div>
+
+  </footer>
+
+  <script src="/src/script.js"></script>
+</body>
+</html>
